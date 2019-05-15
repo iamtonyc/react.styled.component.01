@@ -1,10 +1,9 @@
 import styled from 'styled-components';
 
-const ButtonWrapper =styled.button`
-  color: red;
-  font-size: 2rem;
-  background: red;
-  color:white;
+
+export const ButtonWrapper =styled.button`
+  color: ${props=>props.color};
+  font-size:${props =>( props.big?"2rem":"1rem")} ;
+  ${props=>`background:${props.background}`}
 `;
 
-export {ButtonWrapper};
