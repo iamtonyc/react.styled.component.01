@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import App from '../App';
 import secondaryBcg from '../images/secondaryBcg.jpeg';
 
 export default function Header({img,children}) {

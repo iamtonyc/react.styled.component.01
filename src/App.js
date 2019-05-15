@@ -1,10 +1,10 @@
 import React,{Component} from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import { directive } from '@babel/types';
+// import { directive } from '@babel/types';
 import {ButtonWrapper} from './components/Button';
 import mainBcg from "./images/mainBcg.jpeg";
-import secondaryBcg from "./images/secondaryBcg.jpeg";
+// import secondaryBcg from "./images/secondaryBcg.jpeg";
 import Banner from "./components/Banner";
 import Header from "./components/Header";
 
