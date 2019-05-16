@@ -1,37 +1,35 @@
 import React,{Component} from 'react';
-import './App.css';
-import {ButtonWrapper} from './components/Button';
-import mainBcg from "./images/mainBcg.jpeg";
-import secondaryBcg from "./images/secondaryBcg.jpeg";
-import Banner from "./components/Banner";
-import {Header} from "./components/Header";
-import {Hero} from "./components/Header";
-import {createGlobalStyle} from 'styled-components'
-
-const GlobalStyle = createGlobalStyle`
-  *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-  }
-  body{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
-`;
+import {DangerButton, SuccessButton} from "./components/Buttons";
+import Form from './components/Form.js'
+import {ThemeProvider} from 'styled-components'
+import {RedTheme,GreenTheme} from './components/Theme.js'
 
 class App extends Component{
+  state={
+    theme:RedTheme
+  }
+
+  setRedTheme=()=>{
+    this.setState({
+      theme:RedTheme
+    })
+  }
+  setGreenTheme=()=>{
+    this.setState({
+      theme:GreenTheme
+    })
+  }
   render(){
     return (
       <>
-        <GlobalStyle/>
-        <Header img={mainBcg}>
-          <Banner title="Fresh Coffee is the best">
-            <h3>hello world</h3>
-            <ButtonWrapper>click me</ButtonWrapper>
-          </Banner>
-        </Header>
-        <Hero img={secondaryBcg}/>
-      </>
+        <ThemeProvider theme={this.state.theme}>
+        <div>
+          <SuccessButton onClick={this.setGreenTheme}>Success</SuccessButton>
+          <DangerButton onClick={this.setRedTheme}>Danger</DangerButton>
+          <Form />
+        </div>
+        </ThemeProvider>
+       </>
     )
   }
 };
