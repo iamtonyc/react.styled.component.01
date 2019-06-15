@@ -2,7 +2,7 @@
   "name": "styled-components-example",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://https://iamtonyc.github.io/react.styled.component.01/",
+  "homepage": "https://iamtonyc.github.io/react.styled.component.01/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",
