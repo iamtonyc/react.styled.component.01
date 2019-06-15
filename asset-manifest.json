@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "//iamtonyc.github.io/react.styled.component.01/static/css/main.34de6062.chunk.css",
-    "main.js": "//iamtonyc.github.io/react.styled.component.01/static/js/main.57322c0d.chunk.js",
-    "main.js.map": "//iamtonyc.github.io/react.styled.component.01/static/js/main.57322c0d.chunk.js.map",
-    "runtime~main.js": "//iamtonyc.github.io/react.styled.component.01/static/js/runtime~main.868ffa53.js",
-    "runtime~main.js.map": "//iamtonyc.github.io/react.styled.component.01/static/js/runtime~main.868ffa53.js.map",
-    "static/js/2.d35d22ae.chunk.js": "//iamtonyc.github.io/react.styled.component.01/static/js/2.d35d22ae.chunk.js",
-    "static/js/2.d35d22ae.chunk.js.map": "//iamtonyc.github.io/react.styled.component.01/static/js/2.d35d22ae.chunk.js.map",
-    "index.html": "//iamtonyc.github.io/react.styled.component.01/index.html",
-    "precache-manifest.a3c66c568162cca4db5c7eb245cb482e.js": "//iamtonyc.github.io/react.styled.component.01/precache-manifest.a3c66c568162cca4db5c7eb245cb482e.js",
-    "service-worker.js": "//iamtonyc.github.io/react.styled.component.01/service-worker.js",
-    "static/css/main.34de6062.chunk.css.map": "//iamtonyc.github.io/react.styled.component.01/static/css/main.34de6062.chunk.css.map"
+    "main.css": "/react.styled.component.01/static/css/main.34de6062.chunk.css",
+    "main.js": "/react.styled.component.01/static/js/main.44d72e04.chunk.js",
+    "main.js.map": "/react.styled.component.01/static/js/main.44d72e04.chunk.js.map",
+    "runtime~main.js": "/react.styled.component.01/static/js/runtime~main.d542e71b.js",
+    "runtime~main.js.map": "/react.styled.component.01/static/js/runtime~main.d542e71b.js.map",
+    "static/js/2.f85ad373.chunk.js": "/react.styled.component.01/static/js/2.f85ad373.chunk.js",
+    "static/js/2.f85ad373.chunk.js.map": "/react.styled.component.01/static/js/2.f85ad373.chunk.js.map",
+    "index.html": "/react.styled.component.01/index.html",
+    "precache-manifest.d76fdfe309a565d81b7eb14ca0a3d7b5.js": "/react.styled.component.01/precache-manifest.d76fdfe309a565d81b7eb14ca0a3d7b5.js",
+    "service-worker.js": "/react.styled.component.01/service-worker.js",
+    "static/css/main.34de6062.chunk.css.map": "/react.styled.component.01/static/css/main.34de6062.chunk.css.map"
   }
 }
